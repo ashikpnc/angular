@@ -58,7 +58,7 @@ import { EmployeeService } from '../employee.service';
   <h2>{{j}} {{color}}</h2>
   </div>
   <h3>Hello {{nameIncoming}}</h3>
-  <button (click)="fireEvent()">Emit</button>
+  <!-- <button (click)="fireEvent()">Emit</button> -->
   <li *ngFor="let emp of employee">
       <ol>
         {{emp.id}}

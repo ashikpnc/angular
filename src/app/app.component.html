@@ -1,5 +1,8 @@
 <h1>{{ title }}</h1>
 <h2>From app component</h2>
 <h2>{{ messageX }}</h2>
-<app-test (testEvent)="messageX = $event" [parentData]="name" />
-<app-test2 />
+<!-- <app-test (testEvent)="messageX = $event" [parentData]="name" />
+<app-test2 /> -->
+<a routerLink="/route1" routerLinkActive="active">Test1</a>
+<a routerLink="/route2" routerLinkActive="active">Test1</a>
+<router-outlet></router-outlet>
